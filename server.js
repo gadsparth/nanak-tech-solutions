@@ -25,10 +25,10 @@ const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
 
 // Initialize SMTP Transporter for Mail dispatching
-const smtpHost = process.env.SMTP_HOST;
-const smtpPort = parseInt(process.env.SMTP_PORT || '587', 10);
-const smtpUser = process.env.SMTP_USER;
-const smtpPass = process.env.SMTP_PASS;
+const smtpHost = process.env.SMTP_HOST ? process.env.SMTP_HOST.trim() : null;
+const smtpPort = parseInt((process.env.SMTP_PORT || '587').trim(), 10);
+const smtpUser = process.env.SMTP_USER ? process.env.SMTP_USER.trim() : null;
+const smtpPass = process.env.SMTP_PASS ? process.env.SMTP_PASS.trim() : null;
 
 let mailTransporter = null;
 if (smtpHost && smtpHost !== 'your_smtp_host_here' && smtpUser && smtpUser !== 'your_smtp_user_email_here') {
