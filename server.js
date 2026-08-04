@@ -28,7 +28,7 @@ const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
 const smtpHost = process.env.SMTP_HOST ? process.env.SMTP_HOST.trim() : null;
 const smtpPort = parseInt((process.env.SMTP_PORT || '587').trim(), 10);
 const smtpUser = process.env.SMTP_USER ? process.env.SMTP_USER.trim() : null;
-const smtpPass = process.env.SMTP_PASS ? process.env.SMTP_PASS.trim() : null;
+const smtpPass = process.env.SMTP_PASS ? process.env.SMTP_PASS.replace(/\s+/g, '') : null;
 
 let mailTransporter = null;
 if (smtpHost && smtpHost !== 'your_smtp_host_here' && smtpUser && smtpUser !== 'your_smtp_user_email_here') {
