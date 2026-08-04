@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node rename-index.js",
     "preview": "vite preview",
     "start": "node server.js",
     "postinstall": "npm run build"
