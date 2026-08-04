@@ -1,0 +1,165 @@
+{
+  "globalSettings": {
+    "customHeadCode": "<!-- Custom Head Code (e.g. Meta tags, analytics scripts) -->\n<script>\nconsole.log('Nanak Tech Solutions - Custom Head Script Active');\n</script>",
+    "customBodyStartCode": "<!-- Custom Body Start Code -->",
+    "customFooterCode": "<!-- Custom Footer Code -->"
+  },
+  "about": {
+    "layoutOrder": [
+      "hero",
+      "who-we-are",
+      "values",
+      "expertise",
+      "timeline",
+      "why-choose-us",
+      "tech-stack",
+      "case-studies"
+    ],
+    "blocks": {
+      "hero": {
+        "eyebrow": "Studio Vision",
+        "title": "Engineering Intelligent Growth Through Technology",
+        "description": "Nanak Tech Solutions helps businesses accelerate growth by combining Artificial Intelligence, Digital Marketing, Software Engineering and Business Automation into one integrated ecosystem.",
+        "btnText": "Read Our Story ↓",
+        "graphicSvg": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" class=\"dashboard-svg\">\n  <path d=\"M 10,10 L 190,10 L 190,190 L 10,190 Z\" fill=\"none\" stroke=\"rgba(255,255,255,0.03)\" stroke-width=\"0.7\" />\n  <circle cx=\"100\" cy=\"100\" r=\"75\" fill=\"none\" stroke=\"rgba(207, 181, 132, 0.08)\" stroke-width=\"0.8\" stroke-dasharray=\"2 4\" />\n  <circle cx=\"100\" cy=\"100\" r=\"50\" fill=\"none\" stroke=\"rgba(255,255,255,0.05)\" stroke-width=\"0.5\" />\n  <line x1=\"100\" y1=\"25\" x2=\"50\" y2=\"100\" stroke=\"rgba(255,255,255,0.08)\" stroke-width=\"0.8\" />\n  <line x1=\"50\" y1=\"100\" x2=\"100\" y2=\"175\" stroke=\"rgba(255,255,255,0.08)\" stroke-width=\"0.8\" />\n  <line x1=\"100\" y1=\"175\" x2=\"150\" y2=\"100\" stroke=\"rgba(255,255,255,0.08)\" stroke-width=\"0.8\" />\n  <line x1=\"150\" y1=\"100\" x2=\"100\" y2=\"25\" stroke=\"rgba(255,255,255,0.08)\" stroke-width=\"0.8\" />\n  <line x1=\"100\" y1=\"25\" x2=\"100\" y2=\"175\" stroke=\"rgba(207, 181, 132, 0.2)\" stroke-width=\"0.8\" />\n  <line x1=\"50\" y1=\"100\" x2=\"150\" y2=\"100\" stroke=\"rgba(207, 181, 132, 0.2)\" stroke-width=\"0.8\" />\n  <rect x=\"95\" y=\"20\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"var(--color-accent-gold)\" stroke-width=\"0.8\" class=\"spin-slow\" style=\"transform-origin: 100px 25px;\" />\n  <rect x=\"45\" y=\"95\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"var(--color-white)\" stroke-width=\"0.8\" class=\"spin-slow\" style=\"transform-origin: 50px 100px;\" />\n  <rect x=\"145\" y=\"95\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"var(--color-white)\" stroke-width=\"0.8\" class=\"spin-slow\" style=\"transform-origin: 150px 100px;\" />\n  <circle cx=\"100\" cy=\"175\" r=\"4.5\" fill=\"var(--color-accent-bronze)\" />\n  <circle cx=\"100\" cy=\"100\" r=\"8\" fill=\"rgba(207, 181, 132, 0.15)\" stroke=\"var(--color-accent-gold)\" stroke-width=\"1.2\" class=\"pulse-glow\" />\n</svg>"
+      },
+      "who-we-are": {
+        "label": "01 // Foundations & Motives",
+        "title": "Who We Are",
+        "leadText": "Nanak Tech Solutions was established to build systems that operate beyond ordinary templates. Traditional digital agencies focus on superficial visuals or high-volume ad spends; we build intelligent operational architectures.",
+        "missionTitle": "Our Mission",
+        "missionText": "To equip businesses with the technical leverage required to automate overhead, optimize organic customer search acquisitions, and scale margins through mathematical precision.",
+        "approachTitle": "Our Approach",
+        "approachText": "Restraint is luxury. Zero tech debt, clean code lines, private cloud deployments, and direct developer communication channels build long-term confidence."
+      },
+      "values": {
+        "label": "02 // Operational Integrity",
+        "title": "Our Values",
+        "items": [
+          {
+            "num": "01",
+            "title": "Precision Engineering",
+            "desc": "Every logic branch is written for longevity, high performance, and robust security."
+          },
+          {
+            "num": "02",
+            "title": "Absolute Transparency",
+            "desc": "No black-box metrics. We deliver clean code logs and clear attribution pipelines."
+          },
+          {
+            "num": "03",
+            "title": "Continuous Velocity",
+            "desc": "We construct prototypes rapidly and optimize iterations dynamically to outpace standard agency timelines."
+          }
+        ]
+      },
+      "expertise": {
+        "label": "03 // Core Capabilities",
+        "title": "Core Expertise",
+        "items": [
+          {
+            "num": "01",
+            "title": "AI Solutions",
+            "desc": "Custom agent structures, secure vector database indexing, private cloud fine-tuning, and logic flows."
+          },
+          {
+            "num": "02",
+            "title": "Web Development",
+            "desc": "Fast client-side SPAs using Next.js/Vite, structured API interfaces, and serverless architectures."
+          },
+          {
+            "num": "03",
+            "title": "PPC",
+            "desc": "Google search campaigns, negative keywords bidding strategy, audience targeting, remarketing loops, and budget management."
+          },
+          {
+            "num": "04",
+            "title": "Digital Marketing",
+            "desc": "Conversion landing designs, negative budget filters, enterprise lead audits, and audience lists."
+          },
+          {
+            "num": "05",
+            "title": "SEO & Search Growth",
+            "desc": "Technical crawl clearing, structured schemas mapping, semantic writing hubs, and keyword loops."
+          },
+          {
+            "num": "06",
+            "title": "CRO",
+            "desc": "Conversion rate audits, A/B testing, user journey mapping, heatmaps analysis, and landing page optimization."
+          }
+        ]
+      },
+      "timeline": {
+        "label": "04 // Operational Timeline",
+        "title": "Process & Delivery"
+      },
+      "why-choose-us": {
+        "label": "05 // Market Differentiation",
+        "title": "Why Choose Us"
+      },
+      "tech-stack": {
+        "label": "07 // Technical Stack",
+        "title": "Built with Premium Tech"
+      },
+      "case-studies": {
+        "label": "08 // Operations Proof",
+        "title": "Case Study Previews",
+        "items": [
+          {
+            "id": "ai-automation",
+            "category": "CASE STUDY // AI AUTOMATION",
+            "title": "Logistics Auto-Routing",
+            "description": "Automating route mapping for 80+ daily cargo transfers.",
+            "pills": "42 Hours Saved / Wk, 0% Manual Mistakes",
+            "link": "/services/ai-automation"
+          },
+          {
+            "id": "seo",
+            "category": "CASE STUDY // TECH SEO",
+            "title": "FinTech Traffic Growth",
+            "description": "Clearing indexing issues and setting schema maps.",
+            "pills": "+240% Click Growth, #1 Organic Terms",
+            "link": "/services/seo"
+          },
+          {
+            "id": "lead-generation",
+            "category": "CASE STUDY // LEAD GEN",
+            "title": "SaaS Lead Pipelines",
+            "description": "Deploying enriched cold email structures linked to LinkedIn.",
+            "pills": "4.8x Bidding ROAS, +150 Mapped Leads",
+            "link": "/services/lead-generation"
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "layoutOrder": [
+      "hero",
+      "intro"
+    ],
+    "blocks": {
+      "hero": {
+        "eyebrow": "Digital Agency",
+        "title": "Handcrafted Digital Products & Intelligent Systems",
+        "description": "We architect premium digital solutions, custom software, and automated workflows that elevate your brand.",
+        "btnText": "Explore Capabilities"
+      },
+      "intro": {
+        "label": "01 // High Performance",
+        "title": "Beyond Standard Templates"
+      }
+    }
+  },
+  "consultation": {
+    "layoutOrder": [
+      "hero"
+    ],
+    "blocks": {
+      "hero": {
+        "title": "Request Your Free Strategy Consultation",
+        "description": "Let's understand your business, identify opportunities, and build a customized AI & Digital Growth strategy for your company."
+      }
+    }
+  }
+}
