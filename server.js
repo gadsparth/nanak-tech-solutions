@@ -63,6 +63,7 @@ if (supabaseUrl && supabaseUrl !== 'your_supabase_project_url_here' && supabaseA
 }
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 5001;
 
 /* --------------------------------------------------------------------------
