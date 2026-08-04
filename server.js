@@ -78,6 +78,12 @@ const allowedOrigins = [
   'http://127.0.0.1:5000',
   'http://127.0.0.1:5001',
   'http://127.0.0.1:5173',
+  'https://nanaktechsolutions.com',
+  'http://nanaktechsolutions.com',
+  'https://www.nanaktechsolutions.com',
+  'http://www.nanaktechsolutions.com',
+  'https://seashell-tiger-282048.hostingersite.com',
+  'http://seashell-tiger-282048.hostingersite.com'
 ];
 
 app.use(
