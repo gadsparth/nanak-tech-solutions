@@ -12,6 +12,7 @@ import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import { createClient } from '@supabase/supabase-js';
+import nodemailer from 'nodemailer';
 
 // Load environment variables
 dotenv.config();
@@ -22,6 +23,32 @@ const __dirname = path.dirname(__filename);
 // Initialize Supabase client if keys are provided
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
+
+// Initialize SMTP Transporter for Mail dispatching
+const smtpHost = process.env.SMTP_HOST;
+const smtpPort = parseInt(process.env.SMTP_PORT || '587', 10);
+const smtpUser = process.env.SMTP_USER;
+const smtpPass = process.env.SMTP_PASS;
+
+let mailTransporter = null;
+if (smtpHost && smtpHost !== 'your_smtp_host_here' && smtpUser && smtpUser !== 'your_smtp_user_email_here') {
+  try {
+    mailTransporter = nodemailer.createTransport({
+      host: smtpHost,
+      port: smtpPort,
+      secure: smtpPort === 465,
+      auth: {
+        user: smtpUser,
+        pass: smtpPass
+      }
+    });
+    console.log('[SERVER START] SMTP Transporter configured successfully.');
+  } catch (err) {
+    console.error('[SERVER ERROR] Failed to configure SMTP Transporter:', err);
+  }
+} else {
+  console.log('[SERVER START] SMTP credentials not configured. Email dispatch will run in fallback log mode.');
+}
 
 let supabase = null;
 if (supabaseUrl && supabaseUrl !== 'your_supabase_project_url_here' && supabaseAnonKey && supabaseAnonKey !== 'your_supabase_anon_key_here') {
@@ -198,6 +225,58 @@ const apiLimiter = rateLimit({
 
 app.use('/api/consultation', apiLimiter); // Apply limiter specifically to consultation submissions
 
+// Helper function to dispatch lead notification emails via SMTP
+function sendNotificationEmail(fullname, email, phone, service, message) {
+  if (!mailTransporter) {
+    console.log('[SMTP LOG] SMTP transporter not configured. Skipping email dispatch.');
+    return Promise.resolve();
+  }
+
+  const mailOptions = {
+    from: `"Nanak Lead Hub" <${process.env.SMTP_USER}>`,
+    to: 'info@nanaktechsolutions.com',
+    subject: `New Lead: ${fullname} - ${service}`,
+    html: `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #f0f0f0; border-radius: 8px;">
+        <h2 style="color: #111; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">New Consultation Request</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #555; width: 150px;">Full Name:</td>
+            <td style="padding: 8px 0; color: #111;">${fullname}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #555;">Email Address:</td>
+            <td style="padding: 8px 0; color: #111;"><a href="mailto:${email}">${email}</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #555;">Phone Number:</td>
+            <td style="padding: 8px 0; color: #111;">${phone}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #555;">Service Selected:</td>
+            <td style="padding: 8px 0; color: #111;">${service}</td>
+          </tr>
+        </table>
+        <div style="margin-top: 30px; padding: 15px; background-color: #fcfcfc; border-left: 4px solid #b3a078; border-radius: 4px;">
+          <h4 style="margin-top: 0; color: #555;">Message details:</h4>
+          <p style="color: #333; line-height: 1.5; white-space: pre-wrap; margin-bottom: 0;">${message || 'No message provided.'}</p>
+        </div>
+        <p style="color: #888; font-size: 12px; margin-top: 40px; border-top: 1px solid #f0f0f0; padding-top: 15px; text-align: center;">
+          Sent automatically from Nanak Tech Solutions secure production server.
+        </p>
+      </div>
+    `
+  };
+
+  return mailTransporter.sendMail(mailOptions)
+    .then(info => {
+      console.log(`[SMTP LOG] Email notification successfully sent: ${info.messageId}`);
+    })
+    .catch(err => {
+      console.error('[SMTP ERROR] Failed to send email notification:', err);
+    });
+}
+
 /* --------------------------------------------------------------------------
    SECURE PROXY API ROUTING
    -------------------------------------------------------------------------- */
@@ -226,6 +305,7 @@ app.post('/api/consultation', async (req, res) => {
 
   console.log(`[SECURE LOG] New contact submission received for ${fullname}.`);
 
+  // Attempt to save to database and dispatch email
   if (supabase) {
     try {
       const { error } = await supabase
@@ -243,19 +323,18 @@ app.post('/api/consultation', async (req, res) => {
         console.error('[SUPABASE ERROR] Failed to log contact submission:', error);
       } else {
         console.log(`[SUPABASE LOG] Logged contact submission for ${fullname} directly in Supabase.`);
-        return res.status(200).json({
-          success: true,
-          message: 'Contact logged securely on Supabase.'
-        });
       }
     } catch (err) {
       console.error('[SUPABASE EXCEPTION] Exception during submission logging:', err);
     }
   }
 
+  // Trigger SMTP dispatch asynchronously (non-blocking)
+  sendNotificationEmail(fullname, email, phone, service, message);
+
   return res.status(200).json({
     success: true,
-    message: 'Contact logged securely (Local fallback).'
+    message: 'Contact logged successfully.'
   });
 });
 
