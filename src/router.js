@@ -369,7 +369,7 @@ function renderHome() {
               Let's align on your digital goals. We host intimate engineering reviews to map potential ROI, workflow architectures, and UI strategies.
             </p>
             <p style="color: var(--color-white); font-weight: 400;">
-              Direct Email: <a href="mailto:solutions@nanaktech.com" style="color: var(--color-accent-gold);">solutions@nanaktech.com</a>
+              Direct Email: <a href="mailto:info@nanaktechsolutions.com" style="color: var(--color-accent-gold);">info@nanaktechsolutions.com</a>
             </p>
           </div>
           <div class="consultation-form-wrapper">
@@ -1314,7 +1314,7 @@ function renderPrivacyPage() {
               </p>
               <p style="color: var(--color-white); font-weight: 400; margin-top: 1.5rem;">
                 Nanak Tech Solutions Data Officer<br />
-                <span style="color: var(--color-accent-gold);">solutions@nanaktech.com</span><br />
+                <span style="color: var(--color-accent-gold);">info@nanaktechsolutions.com</span><br />
                 Tower 4B, Cybercity, Sector 24, New Delhi NCR, India
               </p>
             </section>
