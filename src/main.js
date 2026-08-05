@@ -64,6 +64,12 @@ class App {
 
     // 9. Inject premium WhatsApp widget
     this.injectWhatsAppWidget();
+
+    // 10. Smoothly fade in content after initial routing is handled
+    const content = document.getElementById('scroll-content');
+    if (content) {
+      content.style.opacity = '1';
+    }
   }
 
   injectCustomScripts(state) {
