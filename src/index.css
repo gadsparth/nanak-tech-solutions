@@ -220,7 +220,7 @@ a {
 .header-inner {
   max-width: var(--grid-container);
   margin: 0 auto;
-  padding: 0.5rem var(--grid-gap);
+  padding: 0.3rem var(--grid-gap);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -233,13 +233,13 @@ a {
 }
 
 .brand-logo-img {
-  height: 75px;
+  height: 85px;
   width: auto;
   display: block;
 }
 
 .footer-logo-img {
-  height: 140px;
+  height: 150px;
   width: auto;
   display: block;
 }
