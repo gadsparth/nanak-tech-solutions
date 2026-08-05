@@ -228,24 +228,20 @@ a {
 }
 
 .brand-logo {
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  letter-spacing: -0.01em;
-  font-weight: 400;
   display: flex;
   align-items: center;
-  gap: 0.35rem;
 }
 
-.logo-text-primary {
-  font-weight: 700;
-  color: var(--color-white);
+.brand-logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
-.logo-text-secondary {
-  color: var(--color-stone);
-  font-weight: 300;
-  font-size: 0.95rem;
+.footer-logo-img {
+  height: 80px;
+  width: auto;
+  display: block;
 }
 
 .site-nav .nav-list {
