@@ -1126,51 +1126,18 @@ function renderAboutPage() {
           <!-- Slide 1 -->
           <div class="testimonial-slide active" data-index="0">
             <p class="testimonial-text">
-              "The AI agent platform Nanak Tech built saved our operations team over 40 hours a week. Their mathematical focus is unmatched."
-            </p>
-            <div class="testimonial-author">
-              <span class="author-name">Ananya Sen</span>
-              <span class="author-title">COO // FinTech Group</span>
-            </div>
-          </div>
-          
-          <!-- Slide 2 -->
-          <div class="testimonial-slide" data-index="1">
-            <p class="testimonial-text">
-              "Our organic traffic grew by 240% in six months after their technical SEO code audit and schema rebuild. A brilliant engineering studio."
-            </p>
-            <div class="testimonial-author">
-              <span class="author-name">Marcus Vance</span>
-              <span class="author-title">CMO // SaaS Enterprise</span>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="testimonial-slide" data-index="2">
-            <p class="testimonial-text">
-              "They replaced our legacy manual spreadsheets with a secure automated pipeline that syncs leads directly to Salesforce. Highly recommend."
-            </p>
-            <div class="testimonial-author">
-              <span class="author-name">Rajiv Mehta</span>
-              <span class="author-title">VP of Sales // Global Logistics</span>
-            </div>
-          </div>
-
-          <!-- Slide 4 -->
-          <div class="testimonial-slide" data-index="3">
-            <p class="testimonial-text">
-              "Jatin carried out a detailed review of our website and identified several technical and usability improvements. He promptly implemented the agreed changes, including enquiry form enhancements, mobile optimisation, testing and final quality checks. Communication was excellent throughout and he provided clear explanations and practical recommendations aligned with our business objectives. I particularly appreciated his proactive approach in suggesting additional improvements that enhanced the overall user experience. The work was completed professionally, on time and to a high standard. I would be happy to work with Jatin again on future website, SEO or digital marketing projects."
+              "Jatin conducted a detailed website audit and implemented key technical improvements, including form enhancements and mobile optimization. His proactive recommendations, clear communication, and high-quality work delivered immediate value. I highly recommend him for web development and digital marketing."
             </p>
             <div class="testimonial-author">
               <span class="author-name">Colin Parker</span>
               <span class="author-title">CTI Display // UK</span>
             </div>
           </div>
-
-          <!-- Slide 5 -->
-          <div class="testimonial-slide" data-index="4">
+          
+          <!-- Slide 2 -->
+          <div class="testimonial-slide" data-index="1">
             <p class="testimonial-text">
-              "I had a great experience working with Sakshi on SEO for my Shopify store. She communicated clearly and efficiently throughout the process, making everything easy to follow and implement. One thing I really appreciated was how organized she was. She provided detailed Google Docs with step-by-step instructions and documentation, so I always knew exactly what was being done and why. She also took the time to explain things in a way that actually made sense, which is not always the case with SEO. Anytime I had a question, she responded quickly and thoroughly. Overall, her work was very detailed and well thought out, and you can tell she knows what she’s doing. I would absolutely hire her again and would confidently recommend her to anyone looking for solid, reliable SEO help."
+              "Working with Sakshi on our Shopify store's SEO was a great experience. She was highly organized, providing clear step-by-step documentation and explaining complex strategies simply. She was responsive, thorough, and delivered reliable, expert SEO results."
             </p>
             <div class="testimonial-author">
               <span class="author-name">Mathieu</span>
@@ -1178,10 +1145,10 @@ function renderAboutPage() {
             </div>
           </div>
 
-          <!-- Slide 6 -->
-          <div class="testimonial-slide" data-index="5">
+          <!-- Slide 3 -->
+          <div class="testimonial-slide" data-index="2">
             <p class="testimonial-text">
-              "Jatin did a great job managing our Meta Ads campaigns. They brought fresh ideas, optimised our targeting, and helped us achieve strong results while keeping within budget. Always responsive and proactive — it was a smooth and positive experience. I would definitely recommend working with them for Meta Ads management."
+              "Jatin did an outstanding job managing our Meta Ads. He brought fresh concepts, optimized our audience targeting, and delivered strong campaign performance while staying within budget. Responsive, proactive, and highly recommended for ad management."
             </p>
             <div class="testimonial-author">
               <span class="author-name">Philip Sampson</span>
@@ -1189,10 +1156,10 @@ function renderAboutPage() {
             </div>
           </div>
 
-          <!-- Slide 7 -->
-          <div class="testimonial-slide" data-index="6">
+          <!-- Slide 4 -->
+          <div class="testimonial-slide" data-index="3">
             <p class="testimonial-text">
-              "Jatin exceeded expectations in every way. He came in, assessed my Google Ads accounts, and quickly got everything back on track with a clear, strategic approach. He’s extremely knowledgeable, proactive, and communicates very well—keeping me informed and confident every step of the way. His ability to diagnose issues and implement meaningful improvements made an immediate impact. I would highly recommend him to anyone looking for a reliable and skilled Google Ads expert."
+              "Jatin exceeded all expectations by rapidly auditing and optimizing our Google Ads accounts. He is highly knowledgeable, proactive, and kept us fully informed. His ability to diagnose issues and drive strategic performance made an immediate impact."
             </p>
             <div class="testimonial-author">
               <span class="author-name">Maria</span>
@@ -1207,9 +1174,6 @@ function renderAboutPage() {
           <button class="slider-dot" data-slide="1" aria-label="Go to slide 2"></button>
           <button class="slider-dot" data-slide="2" aria-label="Go to slide 3"></button>
           <button class="slider-dot" data-slide="3" aria-label="Go to slide 4"></button>
-          <button class="slider-dot" data-slide="4" aria-label="Go to slide 5"></button>
-          <button class="slider-dot" data-slide="5" aria-label="Go to slide 6"></button>
-          <button class="slider-dot" data-slide="6" aria-label="Go to slide 7"></button>
         </div>
       </div>
     </section>
