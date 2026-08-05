@@ -11,6 +11,11 @@ class App {
   constructor() {
     this.canvasEngine = null;
     
+    // Disable browser's native scroll restoration to prevent page jumping to footer on reload/load
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+
     // Smooth Scroll variables
     this.scroll = {
       current: 0,
