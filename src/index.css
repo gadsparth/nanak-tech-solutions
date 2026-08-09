@@ -866,6 +866,29 @@ body.no-scroll {
   padding: var(--section-padding) 0;
   background-color: var(--color-charcoal);
   border-top: 1px solid var(--color-border);
+  scroll-margin-top: 100px;
+}
+
+.contact-text-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.contact-text-col .section-label,
+.contact-text-col .editorial-title-md,
+.contact-text-col p {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.contact-text-col .editorial-title-md {
+  text-align: left !important;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
 }
 
 .consultation-grid {

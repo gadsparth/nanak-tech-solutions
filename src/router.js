@@ -362,15 +362,28 @@ function renderHome() {
     <section class="consultation-sec" id="consultation">
       <div class="container">
         <div class="consultation-grid">
-          <div>
+          <div class="contact-text-col">
             <span class="section-label" style="color: var(--color-accent-gold);">04 // Project Initiation</span>
             <h2 class="editorial-title-md" style="margin-bottom: 2rem;">Build beyond what is ordinary.</h2>
-            <p style="max-width: 500px; margin-bottom: 2rem; color: var(--color-stone);">
+            <p style="max-width: 500px; margin-bottom: 2rem; color: var(--color-stone); line-height: 1.7;">
               Let's align on your digital goals. We host intimate engineering reviews to map potential ROI, workflow architectures, and UI strategies.
             </p>
-            <p style="color: var(--color-white); font-weight: 400;">
-              Direct Email: <a href="mailto:info@nanaktechsolutions.com" style="color: var(--color-accent-gold);">info@nanaktechsolutions.com</a>
-            </p>
+            <div class="contact-details-block" style="margin-top: 3rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+              <h4 style="font-family: var(--font-sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-accent-gold); margin-bottom: 1rem;">Direct Channels</h4>
+              <p style="margin-bottom: 0.75rem; color: var(--color-stone);">
+                Email: <a href="mailto:info@nanaktechsolutions.com" style="color: var(--color-white); text-decoration: none; border-bottom: 1px solid var(--color-accent-gold); padding-bottom: 2px;">info@nanaktechsolutions.com</a>
+              </p>
+              <p style="color: var(--color-stone);">
+                Scheduling: <a href="#consultation" style="color: var(--color-white); text-decoration: none; border-bottom: 1px solid var(--color-accent-gold); padding-bottom: 2px;">Request Briefing</a>
+              </p>
+            </div>
+            <div class="contact-details-block" style="margin-top: 2rem;">
+              <h4 style="font-family: var(--font-sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-accent-gold); margin-bottom: 1rem;">Studio Presence</h4>
+              <p style="color: var(--color-stone); font-size: 0.9rem; line-height: 1.6;">
+                Nanak Tech Solutions LLP<br />
+                Global Delivery • Secure Encrypted Channels
+              </p>
+            </div>
           </div>
           <div class="consultation-form-wrapper">
             <form id="consultation-form" novalidate>
