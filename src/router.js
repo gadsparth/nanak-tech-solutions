@@ -365,7 +365,7 @@ function renderHome() {
           <div class="contact-text-col">
             <span class="section-label" style="color: var(--color-accent-gold);">04 // Project Initiation</span>
             <h2 class="editorial-title-md" style="margin-bottom: 2rem;">Build beyond what is ordinary.</h2>
-            <p style="max-width: 500px; margin-bottom: 2rem; color: var(--color-stone); line-height: 1.7;">
+            <p style="max-width: 500px; margin-bottom: 2rem; color: var(--color-stone); line-height: 1.7; text-align: left !important;">
               Let's align on your digital goals. We host intimate engineering reviews to map potential ROI, workflow architectures, and UI strategies.
             </p>
             <div class="contact-details-block" style="margin-top: 3rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
@@ -374,7 +374,7 @@ function renderHome() {
                 Email: <a href="mailto:info@nanaktechsolutions.com" style="color: var(--color-white); text-decoration: none; border-bottom: 1px solid var(--color-accent-gold); padding-bottom: 2px;">info@nanaktechsolutions.com</a>
               </p>
               <p style="color: var(--color-stone);">
-                Scheduling: <a href="#consultation" style="color: var(--color-white); text-decoration: none; border-bottom: 1px solid var(--color-accent-gold); padding-bottom: 2px;">Request Briefing</a>
+                Phone: <a href="tel:+919888809768" style="color: var(--color-white); text-decoration: none; border-bottom: 1px solid var(--color-accent-gold); padding-bottom: 2px;">+91-9888809768</a>
               </p>
             </div>
             <div class="contact-details-block" style="margin-top: 2rem;">
