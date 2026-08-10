@@ -2195,9 +2195,6 @@ body.no-scroll {
   .site-header {
     background-color: var(--color-black);
   }
-  .nav-services-trigger:hover .nav-dropdown-menu {
-    display: none; /* Hide desktop menu on smaller screens */
-  }
   .narrative-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
