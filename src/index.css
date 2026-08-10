@@ -2285,6 +2285,7 @@ body.no-scroll {
     transform: none;
     width: 100%;
     max-width: 320px;
+    margin: 0 auto;
     background: transparent;
     border: none;
     box-shadow: none;
@@ -2297,7 +2298,7 @@ body.no-scroll {
   }
 
   .nav-services-trigger.dropdown-active .nav-dropdown-menu {
-    max-height: 500px;
+    max-height: 1200px;
     opacity: 1;
     visibility: visible;
     padding-top: 1rem;
