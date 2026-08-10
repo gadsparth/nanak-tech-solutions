@@ -979,7 +979,7 @@ class App {
     // Mobile tap triggers
     trigger.addEventListener('click', (e) => {
       if (window.innerWidth <= 768) {
-        if (e.target.closest('.nav-item')) {
+        if (!menu.contains(e.target)) {
           e.preventDefault();
           trigger.classList.toggle('dropdown-active');
         }
