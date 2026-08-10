@@ -2298,10 +2298,19 @@ body.no-scroll {
   }
 
   .nav-services-trigger.dropdown-active .nav-dropdown-menu {
-    max-height: 1200px;
-    opacity: 1;
-    visibility: visible;
-    padding-top: 1rem;
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-height: 1200px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    padding-top: 1rem !important;
   }
 
   .nav-dropdown-grid {
