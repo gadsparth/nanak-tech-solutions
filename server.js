@@ -342,6 +342,15 @@ app.post('/api/consultation', async (req, res) => {
 /* --------------------------------------------------------------------------
    STATIC ASSETS SERVING & SPA FALLBACK
    -------------------------------------------------------------------------- */
+// Explicitly serve sitemap.xml and robots.txt to bypass SPA wildcard
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'sitemap.xml'));
+});
+
+app.get('/robots.txt', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'robots.txt'));
+});
+
 // Serve static compiled bundle folders from Vite build outputs
 app.use(express.static(path.join(__dirname, 'dist')));
 
