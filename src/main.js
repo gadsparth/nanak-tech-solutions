@@ -355,11 +355,11 @@ class App {
   syncCanvasState(path) {
     if (!this.canvasEngine) return;
     
-    // Hide background sculpture entirely on detailed blog post pages for readability contrast
+    // Hide background sculpture on all blog pages for design clarity and reading readability
     const canvas = document.getElementById('sculpture-canvas');
     if (canvas) {
-      if (path.startsWith('/blog/')) {
-        canvas.style.opacity = '0.04';
+      if (path.startsWith('/blog')) {
+        canvas.style.opacity = '0';
       } else {
         canvas.style.opacity = '0.35';
       }

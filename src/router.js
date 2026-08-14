@@ -484,16 +484,16 @@ function renderServicePage(service, key) {
 
   return `
     <!-- Cinematic Hero -->
-    <section class="hero-sec container">
-      <div class="hero-editorial">
-        <a href="/" class="hero-eyebrow" data-link>← Back to Studio Overview</a>
-        <h1 class="hero-headline" style="margin-top: 1.5rem;">
+    <section class="inner-hero-sec container">
+      <div class="inner-hero-inner">
+        <a href="/" class="inner-hero-eyebrow" data-link>← Back to Studio Overview</a>
+        <h1 class="inner-hero-title" style="margin-top: 1.5rem;">
           <span>${service.title}</span>
         </h1>
-        <p class="lead-text" style="max-width: 800px; margin-top: 2rem;">
+        <p class="inner-hero-subtitle" style="font-size: 1.25rem; max-width: 800px; margin-bottom: 2rem;">
           ${service.tagline}
         </p>
-        <p style="max-width: 600px; margin-top: 1.5rem;">
+        <p style="max-width: 600px; color: var(--color-stone); font-size: 0.95rem; line-height: 1.6;">
           ${service.heroDescription}
         </p>
       </div>
@@ -794,18 +794,16 @@ function renderConsultationPage() {
 function renderAboutHero(data) {
   return `
     <!-- About Hero Section -->
-    <section class="hero-sec container">
-      <div class="hero-editorial hero-split-editorial">
-        <div>
-          <span class="hero-eyebrow">${data.eyebrow}</span>
-          <h1 class="hero-headline" style="font-size: clamp(2rem, 4.5vw, 3.8rem); margin-bottom: 2rem;">
-            <span>${data.title}</span>
-          </h1>
-          <p class="lead-text" style="max-width: 600px; margin-bottom: 3rem;">
-            ${data.description}
-          </p>
-          <a href="#about-who-we-are" class="cta-btn-lg">${data.btnText}</a>
-        </div>
+    <section class="inner-hero-sec container">
+      <div class="inner-hero-inner">
+        <span class="inner-hero-eyebrow">${data.eyebrow}</span>
+        <h1 class="inner-hero-title">
+          <span>${data.title}</span>
+        </h1>
+        <p class="inner-hero-subtitle">
+          ${data.description}
+        </p>
+        <a href="#about-who-we-are" class="cta-btn-lg">${data.btnText}</a>
       </div>
     </section>
   `;
@@ -1206,7 +1204,7 @@ function renderAboutPage() {
 
 function renderPrivacyPage() {
   return `
-    <section class="section container" style="padding-top: 10rem;">
+    <section class="section container privacy-page-sec">
       <div class="privacy-split-layout">
         
         <!-- Left Side: Floating Table of Contents -->
@@ -1850,29 +1848,11 @@ function renderBlogHub() {
 
   return `
     <!-- Blog Hub Hero Section -->
-    <section class="blog-hero-sec container">
-      <div class="blog-hero-inner">
-        <!-- Visual network background grid -->
-        <div class="blog-hero-mesh" aria-hidden="true">
-          <svg viewBox="0 0 200 200" width="100%" height="100%">
-            <defs>
-              <linearGradient id="mesh-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="var(--color-accent-gold)" stop-opacity="0.12" />
-                <stop offset="100%" stop-color="var(--color-accent-bronze)" stop-opacity="0.01" />
-              </linearGradient>
-            </defs>
-            <path d="M 0,40 L 200,40 M 0,80 L 200,80 M 0,120 L 200,120 M 0,160 L 200,160 M 40,0 L 40,200 M 80,0 L 80,200 M 120,0 L 120,200 M 160,0 L 160,200" fill="none" stroke="url(#mesh-grad)" stroke-width="0.3" />
-            <circle cx="80" cy="80" r="1.5" fill="var(--color-accent-gold)" opacity="0.6" class="pulse-glow" />
-            <circle cx="120" cy="120" r="1" fill="var(--color-white)" opacity="0.4" />
-            <circle cx="40" cy="120" r="1.5" fill="var(--color-accent-gold)" opacity="0.5" />
-            <line x1="40" y1="120" x2="80" y2="80" stroke="rgba(207, 181, 132, 0.1)" stroke-width="0.5" />
-            <line x1="80" y1="80" x2="120" y2="120" stroke="rgba(207, 181, 132, 0.1)" stroke-width="0.5" />
-          </svg>
-        </div>
-        
-        <span class="blog-hero-eyebrow">Studio Knowledge Network</span>
-        <h1 class="blog-hero-title">Insights, AI & Digital Growth Resources</h1>
-        <p class="blog-hero-subtitle">
+    <section class="inner-hero-sec container">
+      <div class="inner-hero-inner">
+        <span class="inner-hero-eyebrow">Studio Knowledge Network</span>
+        <h1 class="inner-hero-title">Insights, AI & Digital Growth Resources</h1>
+        <p class="inner-hero-subtitle">
           Expert insights on Artificial Intelligence, Digital Marketing, SEO, Automation, Web Development, Analytics and Business Growth.
         </p>
 
