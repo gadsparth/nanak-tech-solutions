@@ -146,7 +146,7 @@ export const blogData = {
         a: "A typical AI Agent workflow integration requires between 4 to 8 weeks, including initial system audits, custom agent prompts training, dry shadow testing, and sandbox validation."
       }
     ],
-    related: ["ai-agents-vs-traditional-automation-difference", "how-businesses-scale-with-ai-marketing-together"]
+    related: ["how-ai-transforms-sales-process", "seo-strategies-that-work-in-2026"]
   },
   "seo-strategies-that-work-in-2026": {
     slug: "seo-strategies-that-work-in-2026",
@@ -221,7 +221,7 @@ export const blogData = {
         h2: "7. Build High-Quality Internal Links",
         paragraphs: [
           "Internal linking is one of the most underrated SEO strategies. And unlike many external ranking tactics, you have complete control over your internal links.",
-          "Suppose you publish an article about 'SEO Strategies for Small Businesses.' Within that article, you might naturally link to your technical SEO guide, your local SEO guide, your keyword research article, your SEO services page, your SEO case study, or your Google Business Profile guide. This helps users discover related information and helps search engines understand how your content fits together.",
+          "Suppose you publish an article about 'SEO Strategies for Small Businesses.' Within that article, you naturally link to your technical SEO guide, your local SEO guide, your keyword research article, your SEO services page, your SEO case study, or your Google Business Profile guide. This helps users discover related information and helps search engines understand how your content fits together.",
           "But there's an important rule: don't link just for the sake of linking. The link should make sense. If someone reading about technical SEO would genuinely benefit from your article about website speed, link to it. Use descriptive anchor text (like 'Learn more about technical SEO audits') rather than generic text (like 'click here')."
         ]
       },
@@ -289,7 +289,7 @@ export const blogData = {
         a: "There is no universal timeline. Results depend on competition, website authority, technical condition, content quality, industry, search demand, and the effectiveness of the overall strategy. SEO should generally be treated as a compounding long-term investment rather than an instant traffic tactic."
       }
     ],
-    related: ["complete-guide-digital-marketing-growing-businesses", "why-business-needs-high-converting-website"]
+    related: ["why-business-needs-high-converting-website", "google-ads-vs-meta-ads-better"]
   },
   "how-ai-transforms-sales-process": {
     slug: "how-ai-transforms-sales-process",
@@ -366,7 +366,7 @@ export const blogData = {
         h2: "AI Can Help Salespeople Prepare for Meetings and Turn Conversations Into Insights",
         paragraphs: [
           "Preparation can make a huge difference to the quality of a sales conversation. But preparing for every meeting can take considerable time. A salesperson may have to search through old emails, CRM records, meeting notes, proposals and previous conversations. AI can help bring this information together. Before a meeting, the salesperson could receive a concise summary explaining who the prospect is, what they previously discussed, what services they are interested in, what questions they asked and what the next logical conversation might be.",
-          "Furthermore, every sales conversation contains information. Customers explain their problems, ask questions, raise concerns, mention competitors, and explain what they like and dislike about existing solutions. Traditionally, much of this information remains inside individual conversations.",
+          "Keep in mind that every sales conversation contains information. Customers explain their problems, ask questions, raise concerns, mention competitors, and explain what they like and dislike about existing solutions. Traditionally, much of this information remains inside individual conversations.",
           "AI can help turn conversations into structured information. It can summarize meetings, identify important questions and capture action items. More importantly, businesses can begin looking for patterns across many conversations. If prospects repeatedly ask about implementation time, the marketing team could create content addressing implementation, the website could explain the process more clearly, and the sales team could develop a stronger response. A single customer question can therefore become a business improvement opportunity."
         ]
       },
@@ -696,160 +696,7 @@ export const blogData = {
         a: "Strategy matters more than the platform alone. Targeting, messaging, offer, landing page, conversion process, follow up and measurement all influence whether advertising produces profitable results."
       }
     ],
-    related: ["complete-guide-digital-marketing-growing-businesses", "seo-strategies-that-work-in-2026"]
-  },
-  "complete-guide-digital-marketing-growing-businesses": {
-    slug: "complete-guide-digital-marketing-growing-businesses",
-    title: "The Complete Guide to Digital Marketing for Growing Businesses",
-    category: "Digital Marketing",
-    readTime: "9 min read",
-    date: "July 08, 2026",
-    author: {
-      name: "Sonia Patel",
-      title: "Senior Growth Strategist",
-      bio: "Sonia Patel creates multi-channel digital strategies designed to scale organic traffic and paid conversion pipelines.",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&auto=format&fit=crop"
-    },
-    excerpt: "Building a predictable digital customer acquisition engine requires alignment across paid search, organic loops, content hubs, and email lists.",
-    featuredImage: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop",
-    metaTitle: "The Complete Guide to Digital Marketing for Growing Businesses | Nanak Tech Solutions",
-    metaDesc: "Read our comprehensive guide to paid media, organic SEO loops, conversion paths, and multi-touch email funnels built to scale revenue.",
-    keywords: ["Digital Marketing Guide", "Lead Generation", "Marketing Systems", "Client Acquisition"],
-    sections: [
-      {
-        h2: "Designing Your Digital Acquisition Engine",
-        paragraphs: [
-          "Relying on a single marketing channel leaves your business vulnerable to algorithm changes and rising ad costs. Growing businesses need balanced multi-channel acquisition pipelines.",
-          "We structure digital strategies around four key components: organic search presence (SEO), paid acquisition channels (Google & Meta Ads), high-converting landing pages, and automated email nurturing sequences."
-        ]
-      },
-      {
-        h2: "Aligning Acquisition Channels for Growth",
-        paragraphs: [
-          "Paid search ads capture buyers ready to buy today, while organic SEO builds long-term domain value and drives free traffic. Combined with helpful content hubs, this setup builds immediate brand authority.",
-          "Once visitors land on your site, use optimized templates and clear CTAs to capture their information, and deploy automated email campaigns to build relationships and book sales calls."
-        ]
-      }
-    ],
-    takeaways: [
-      "Avoid relying on a single channel; build a balanced mix of paid search, SEO, and retargeting campaigns.",
-      "Use helpful, high-quality content hubs to educate prospects and establish industry authority.",
-      "Set up automated email sequences to nurture leads and book meetings directly onto sales calendars."
-    ],
-    pullQuote: "Effective digital marketing isn't about running single ads; it is about building a connected system that turns traffic into revenue.",
-    faqs: [
-      {
-        q: "What is the typical timeline to see SEO growth?",
-        a: "While paid ads generate leads instantly, organic SEO content clusters typically require 3 to 6 months to establish domain authority and drive consistent traffic."
-      },
-      {
-        q: "How do you define marketing channel attribution?",
-        a: "We use UTM tracking tags, CRM connections, and analytics logs to trace exactly which ad touchpoints drive client conversion calls."
-      }
-    ],
-    related: ["google-ads-vs-meta-ads-better", "seo-strategies-that-work-in-2026"]
-  },
-  "common-website-mistakes-kill-conversions": {
-    slug: "common-website-mistakes-kill-conversions",
-    title: "Common Website Mistakes That Kill Conversions",
-    category: "Web Development",
-    readTime: "7 min read",
-    date: "July 03, 2026",
-    author: {
-      name: "Marcus Vance",
-      title: "Lead Frontend Engineer",
-      bio: "Marcus Vance audits website page speeds, script sizes, and UI layouts to optimize conversion rates.",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop"
-    },
-    excerpt: "Are you losing half your potential leads? Audit your website for these common design, performance, and formatting layout mistakes.",
-    featuredImage: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1200&auto=format&fit=crop",
-    metaTitle: "Common Website Mistakes That Kill Conversions | Nanak Tech Solutions",
-    metaDesc: "Discover the design flaws, performance issues, complicated checkout flows, and bad form inputs that hurt conversion rates.",
-    keywords: ["Website Mistakes", "Conversion Optimization", "UX Friction", "Page Speed"],
-    sections: [
-      {
-        h2: "UI Friction: Complex Forms and Messy Layouts",
-        paragraphs: [
-          "Long, complicated forms with too many input fields cause immediate user friction, leading visitors to abandon your site and look elsewhere.",
-          "Messy, disorganized layouts confuse visitors and make it hard for them to find key information. Clear typography hierarchy and balanced spacing are essential to guide users toward your call-to-action buttons."
-        ]
-      },
-      {
-        h2: "Performance Issues: Heavy Scripts and Slow Loading Speeds",
-        paragraphs: [
-          "Heavy scripts, uncompressed images, and redundant CSS code slow down websites and hurt conversion rates, especially on mobile networks.",
-          "Ensure your site is lightweight, compress all assets, and strip unnecessary plugins to keep loading times under 1.5 seconds and maximize conversions."
-        ]
-      }
-    ],
-    takeaways: [
-      "Keep forms short and simple; long inputs lead to higher drop-off rates.",
-      "Use clean typography, generous spacing, and clear CTAs to guide user focus.",
-      "Optimize images and clean up code scripts to ensure sub-1.5 second loading speeds."
-    ],
-    pullQuote: "Every extra form field and split-second of loading delay acts as friction between your visitor and your revenue.",
-    faqs: [
-      {
-        q: "How many input fields should a standard contact form have?",
-        a: "Keep it under 4 fields (typically Name, Email, Phone, and Message) to minimize friction and maximize submissions."
-      },
-      {
-        q: "What is Cumulative Layout Shift (CLS) and why does it matter?",
-        a: "CLS measures how much elements move around as the page loads. Unstable layouts confuse users and lead to lower conversions."
-      }
-    ],
-    related: ["why-business-needs-high-converting-website", "how-to-improve-website-core-web-vitals"]
-  },
-  "ai-agents-vs-traditional-automation-difference": {
-    slug: "ai-agents-vs-traditional-automation-difference",
-    title: "AI Agents vs Traditional Automation: What's the Difference?",
-    category: "AI & Automation",
-    readTime: "8 min read",
-    date: "June 29, 2026",
-    author: {
-      name: "Dr. Kabir Nanak",
-      title: "Chief AI Architect",
-      bio: "Dr. Kabir Nanak builds autonomous reasoning pipelines using advanced LLM routing logic.",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
-    },
-    excerpt: "Understand the structural differences between rigid scripts and cognitive reasoning systems to scale your operational leverage.",
-    featuredImage: "https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?q=80&w=1200&auto=format&fit=crop",
-    metaTitle: "AI Agents vs Traditional Automation: The Key Differences | Nanak Tech Solutions",
-    metaDesc: "Compare static automated scripts with cognitive AI agents. Learn when to deploy rules-based workflows or dynamic reasoning systems.",
-    keywords: ["AI Agents", "Traditional Automation", "Cognitive Systems", "Workflow Engineering"],
-    sections: [
-      {
-        h2: "Rules-Based Automation vs. Cognitive Reasoning",
-        paragraphs: [
-          "Traditional automation relies on fixed rules. If an event occurs, execute a pre-programmed action. This works well for simple tasks but breaks when data formats change or inputs require manual review.",
-          "AI agents use cognitive reasoning to handle unstructured inputs. They analyze context, select the best tools from their dataset, and complete complex, multi-step tasks dynamically."
-        ]
-      },
-      {
-        h2: "Choosing the Right Automation Model for Your Business",
-        paragraphs: [
-          "Deploy traditional rules-based automation for simple, repetitive tasks like moving data between spreadsheets.",
-          "Use cognitive AI agents for complex operations that require judgment, such as analyzing client support tickets, drafting custom replies, or processing procurement invoices."
-        ]
-      }
-    ],
-    takeaways: [
-      "Traditional automation uses static, rules-based scripts that break on unstructured data.",
-      "AI agents apply cognitive reasoning to analyze context and handle complex tasks dynamically.",
-      "Deploy traditional rules for simple data moves, and use AI agents for tasks requiring manual judgment."
-    ],
-    pullQuote: "Traditional automation is like a factory assembly line; AI agents are like skilled operators capable of making decisions in real-time.",
-    faqs: [
-      {
-        q: "Can AI agents run within our existing software systems?",
-        a: "Yes. Custom AI agents connect directly to your databases, CRMs, and email gateways using secure API integrations."
-      },
-      {
-        q: "What is the typical cost difference between these systems?",
-        a: "AI agents require more initial setup investment but deliver significantly higher ROI by automating complex, high-value tasks."
-      }
-    ],
-    related: ["future-ai-automation-modern-businesses", "how-businesses-scale-with-ai-marketing-together"]
+    related: ["why-business-needs-high-converting-website", "seo-strategies-that-work-in-2026"]
   },
   "how-to-improve-website-core-web-vitals": {
     slug: "how-to-improve-website-core-web-vitals",
@@ -984,55 +831,143 @@ export const blogData = {
     ],
     related: ["seo-strategies-that-work-in-2026", "why-business-needs-high-converting-website"]
   },
-  "how-businesses-scale-with-ai-marketing-together": {
-    slug: "how-businesses-scale-with-ai-marketing-together",
-    title: "How Businesses Can Scale with AI and Marketing Together",
-    category: "Business Growth",
-    readTime: "8 min read",
-    date: "June 20, 2026",
+  "common-website-mistakes-kill-conversions": {
+    slug: "common-website-mistakes-kill-conversions",
+    title: "Common Website Mistakes That Kill Conversions",
+    category: "Web Development",
+    readTime: "10 min read",
+    date: "August 14, 2026",
     author: {
-      name: "Dr. Kabir Nanak",
-      title: "Chief AI Architect",
-      bio: "Dr. Kabir Nanak integrates custom AI automation pipelines with multi-channel digital marketing campaigns.",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
+      name: "Marcus Vance",
+      title: "Lead Frontend Engineer",
+      bio: "Marcus Vance specializes in building high-performance web applications using modern, lightweight frameworks.",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop"
     },
-    excerpt: "Unlock hyper-scale. Discover the leverage created when you connect cognitive AI agents directly to your paid and organic marketing funnels.",
-    featuredImage: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop",
-    metaTitle: "How Businesses Scale with AI and Marketing Together | Nanak Tech Solutions",
-    metaDesc: "Learn how integrating cognitive automation workflows with search engine marketing campaigns drives scalability and revenue.",
-    keywords: ["AI Marketing", "Business Growth", "Automated Pipelines", "Operational Leverage"],
+    excerpt: "Are you losing half your potential leads? Audit your website for these common design, performance, and formatting layout mistakes.",
+    featuredImage: "/common-website-mistakes-kill-conversions.jpg",
+    metaTitle: "Common Website Mistakes That Kill Conversions | Nanak Tech Solutions",
+    metaDesc: "Discover the most common website mistakes that hurt conversions, from slow loading and weak CTAs to poor mobile design, unclear messaging and complicated forms.",
+    keywords: ["website mistakes that kill conversions", "website conversion mistakes", "improve website conversions", "website conversion optimization", "website design mistakes", "website conversion rate", "business website mistakes", "improve website performance"],
     sections: [
       {
-        h2: "Connecting Acquisition and Operations Pipelines",
+        h2: "1. Your Website Does Not Explain What You Do",
         paragraphs: [
-          "Marketing campaigns drive client interest, but operational bottlenecks can limit growth. High lead volumes can overwhelm manual validation, onboarding, and customer support workflows.",
-          "Integrating cognitive AI agents with acquisition channels solves this. AI qualifies leads instantly, drafts personalized proposals, and updates CRM databases in real-time."
+          "One of the biggest mistakes businesses make is trying to sound impressive instead of being clear. A homepage might say: 'Transforming businesses through next generation digital innovation.' It sounds sophisticated. But what does the company actually do? A visitor should not need to read five sections before understanding your business.",
+          "Your website should quickly communicate three things: What you offer, who you help, and why someone should choose you.",
+          "For example, instead of using vague language, a digital marketing agency could say: 'We help service businesses generate qualified leads through SEO, Google Ads, social media advertising and AI automation.' Now the visitor immediately understands the offer. Clarity creates confidence; confusion creates exits."
         ]
       },
       {
-        h2: "Hyper-Personalization at Scale",
+        h2: "2. Your Homepage Tries To Say Everything",
         paragraphs: [
-          "Combine behavioral tracking data with custom LLM prompts to deliver personalized content across all touchpoints.",
-          "Tailor landing pages and follow-up emails to match visitor industries and job titles, significantly increasing conversion rates without raising team overhead."
+          "Another common problem is overcrowding the homepage. Businesses often try to include every service, every achievement, every feature, every testimonial, every paragraph and every image. The result is overwhelming.",
+          "A homepage should guide visitors rather than bombard them. Start with the most important message, then introduce the main services, follow with evidence, explain your approach, answer common questions, and then give visitors an obvious next step. Not every piece of information needs to appear above the fold. The purpose of the homepage is to guide the visitor deeper into the website."
+        ]
+      },
+      {
+        h2: "3. Your Call To Action Is Weak or Overabundant",
+        paragraphs: [
+          "Imagine someone likes your service, understands what you do, trusts your business, and is interested. Then they reach the bottom of the page and cannot figure what to do next. This happens more often than you might think. A website needs clear calls to action (like 'Request a Consultation', 'Get a Free Quote', 'Book a Strategy Call', 'Start Your Project', 'Talk To Our Team', or 'Get Started'). What matters is that the action is obvious; do not make visitors search for your contact information.",
+          "The opposite problem can also hurt conversions. Some websites have buttons everywhere: Get Started, Learn More, Contact Us, Download Now, Book A Call, Explore Services, Request Pricing, and Join Now. When everything demands attention, nothing feels important. Your website should have a primary action and other actions can support it. Consistency makes the customer journey easier to understand."
+        ]
+      },
+      {
+        h2: "4. Slow Speeds and Poor Mobile Responsiveness",
+        paragraphs: [
+          "Nobody wants to wait for a website. A visitor may have discovered your business, clicked the link, and left because the page takes too long to load. Performance is part of the customer experience: compress images, use modern formats, remove unnecessary scripts, optimize code, use caching, and monitor Core Web Vitals.",
+          "Similarly, a website can look perfect on desktop and fail badly on smartphones: text too small, buttons difficult to tap, images overflowing, or forms difficult to complete. Mobile visitors should not feel like they are using a broken version of your website; the mobile experience should be deliberately designed and tested across screen sizes."
+        ]
+      },
+      {
+        h2: "5. Design without Strategy and Lack of Trust Signals",
+        paragraphs: [
+          "Modern websites can do almost anything visually: 3D animations, moving backgrounds, scroll effects, or video backgrounds. But visual effects should support the message, not distract from it. If a visitor spends more time watching an animation than understanding your service, the design is working against the business. Good design creates visual hierarchy and directs attention to important actions.",
+          "Furthermore, people are naturally cautious, so your website needs to reduce uncertainty with trust signals: testimonials, case studies, reviews, client logos, certifications, awards, team info, real photos, and clear contact details. The more expensive the purchase, the more trust evidence matters to help visitors feel comfortable moving forward."
+        ]
+      },
+      {
+        h2: "6. Talking Too Much About Yourself and Generic Content",
+        paragraphs: [
+          "Businesses naturally want to talk about themselves, claiming they are experts, innovative, or leaders. But customers are more interested in their own problems. Your content should connect your capabilities to customer outcomes: explain why what you do matters, not just what you do.",
+          "Similarly, generic phrases like 'quality solutions' or 'results driven approach' appear everywhere and say very little. Strong content is specific: talk about the problems your customers actually face, explain how your service works, show what makes your approach different, use examples, and show results."
+        ]
+      },
+      {
+        h2: "7. Complicated Forms and Hidden Contact Details",
+        paragraphs: [
+          "A visitor wants to contact you, but is presented with a form of fifteen fields. At this point, they may decide it is too much work. Your form should collect what you genuinely need at the beginning (like name, email, phone, and requirements) without creating friction. Reduce fields, make forms simple, and tell visitors what happens after submission.",
+          "Do not hide contact details either. The phone number, email address, and contact links should be easily accessible in the header, footer, and main service pages. If someone is ready to talk, do not create unnecessary obstacles."
+        ]
+      },
+      {
+        h2: "8. Weak Service Pages and Mismatched Landing Pages",
+        paragraphs: [
+          "Putting every service on one generic page provides less context for search engines and visitors. Dedicated service pages explain the problem, solution, process, benefits, FAQs, and clear CTAs for each specific service, improving UX and search visibility.",
+          "In paid advertising, it is also a major problem if your landing page does not match your advertisement. If someone clicks an ad for 'Google Ads Management' and lands on a general homepage about web development and branding, they must search for the relevant information. Send visitors to dedicated, matching pages where the headline and content reinforce the ad promise."
+        ]
+      },
+      {
+        h2: "9. No Clear Customer Journey or Real Proof",
+        paragraphs: [
+          "A visitor should never be forced to figure out where to go. The website pages should connect naturally: a blog links to a service, a service links to a case study, and a case study leads to a consultation. Provide a logical next step throughout.",
+          "Additionally, back up your claims with evidence. Instead of just claiming that you help businesses generate leads, present case studies showing the challenge, strategy, implementation, and actual outcome. Real evidence is far more persuasive than promotional language."
+        ]
+      },
+      {
+        h2: "10. Ignoring Search Intent and Lacking Social Proof near Decisions",
+        paragraphs: [
+          "SEO is about understanding search intent. Address different stages of the buying journey: educational content for researchers, service pages for evaluators, and landing pages for those ready to act.",
+          "Social proof is also more powerful when placed near decision points. Show customer testimonials on service pages, near consultation sections, or next to pricing information to reduce uncertainty at the moment the visitor considers taking action."
+        ]
+      },
+      {
+        h2: "11. Making People Think Too Much and Never Testing",
+        paragraphs: [
+          "Every extra decision creates friction. Your website should answer visitor questions naturally through clear navigation, messaging, buttons, forms, and content, reducing mental effort.",
+          "Finally, do not assume your website works because it looks good. Track analytics, monitor traffic, test different headlines, CTAs, forms, and landing pages. A website should improve based on evidence, treating it as a business sales asset rather than a static brochure."
         ]
       }
     ],
     takeaways: [
-      "Connect acquisition channels with cognitive operations to prevent processing bottlenecks.",
-      "Use AI agents to qualify leads and draft personalized follow-up messages automatically.",
-      "Combine behavioral data with LLM tools to deliver personalized content at scale."
+      "Avoid vague homepage copy; state your core service, target market, and value metrics within five seconds.",
+      "Minimize conversion path friction by reducing forms to basic fields and displaying CTAs consistently.",
+      "Establish immediate authority by placing client outcomes case studies and social testimonials near primary decision nodes."
     ],
-    pullQuote: "Scaling is not just about driving more traffic; it is about building automated systems that process that traffic into profit.",
+    pullQuote: "Every extra form field and split-second of loading delay acts as friction between your visitor and your revenue.",
     faqs: [
       {
-        q: "What CRM systems support cognitive pipeline integrations?",
-        a: "We design custom API connections to link AI pipelines with CRM solutions like Salesforce, HubSpot, and Pipedrive."
+        q: "Why is my website getting traffic but no enquiries?",
+        a: "Traffic does not guarantee conversions. Your website may have unclear messaging, weak calls to action, poor trust signals, slow performance, complicated forms or a mismatch between visitor intent and your offer."
       },
       {
-        q: "How does this approach improve paid campaign ROI?",
-        a: "Instant lead qualification and follow-up reduce response times, significantly raising campaign conversions and ROI."
+        q: "How do I know if my website is converting well?",
+        a: "Track meaningful actions such as enquiry submissions, phone calls, bookings, purchases and qualified leads. Comparing these actions against your relevant website traffic can help you understand conversion performance."
+      },
+      {
+        q: "What is the biggest website mistake businesses make?",
+        a: "One of the biggest mistakes is building a website around appearance rather than customer needs and business objectives. A website should be designed to guide visitors towards meaningful actions."
+      },
+      {
+        q: "Can website speed affect conversions?",
+        a: "Yes. Slow websites can create frustration and cause visitors to leave before engaging with your content or taking action. Performance should therefore be treated as part of the overall conversion strategy."
+      },
+      {
+        q: "How important is mobile optimization?",
+        a: "Extremely important. Many visitors access websites through smartphones. If your website is difficult to navigate or use on mobile devices, you can lose potential customers even if the desktop version performs well."
+      },
+      {
+        q: "Should every website have a call to action?",
+        a: "A business website should generally make the desired next step clear. The exact call to action depends on the business and the visitor's stage in the buying journey."
+      },
+      {
+        q: "How often should a business improve its website?",
+        a: "Website optimization should be ongoing. Review analytics regularly and make improvements based on visitor behavior, conversion data, search performance and changes in your business."
+      },
+      {
+        q: "Can SEO and conversion optimization work together?",
+        a: "Absolutely. SEO brings relevant visitors to your website while conversion optimization helps turn those visitors into enquiries, customers or other valuable actions. Combining both creates a stronger digital marketing system."
       }
     ],
-    related: ["future-ai-automation-modern-businesses", "complete-guide-digital-marketing-growing-businesses"]
+    related: ["why-business-needs-high-converting-website", "how-to-improve-website-core-web-vitals"]
   }
 };
