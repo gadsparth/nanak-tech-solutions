@@ -1868,10 +1868,7 @@ function renderBlogHub() {
     </section>
 
     <!-- Filters and Sorting Control Bar -->
-    <section class="blog-controls-sec container">
-      <div class="blog-filter-tabs-container">
-        ${categoryPillsHtml}
-      </div>
+    <section class="blog-controls-sec container" style="justify-content: flex-end;">
       <div class="blog-sorting-wrapper">
         <label for="blog-sort-select">Sort By:</label>
         <div class="blog-select-wrapper">
