@@ -1954,7 +1954,7 @@ function renderBlogHub() {
       <div class="blog-newsletter-inner">
         <div class="blog-newsletter-content">
           <span class="section-label" style="color: var(--color-accent-gold);">Structured Insights</span>
-          <h3>Subscribe to the Nanak Ledger</h3>
+          <h3>Subscribe to Nanak Tech Solutions's Newsletter</h3>
           <p>We transmit monthly technical briefs containing detailed AI blueprints, search data audits, and web efficiency optimization studies.</p>
         </div>
         <form class="blog-newsletter-form" id="blog-newsletter-form">

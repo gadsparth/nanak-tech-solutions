@@ -1223,7 +1223,7 @@ class App {
         const input = newsForm.querySelector('input');
         if (input && input.value) {
           if (window.adminCms && typeof window.adminCms.showToast === 'function') {
-            window.adminCms.showToast('Corporate email subscribed to Nanak Ledger');
+            window.adminCms.showToast("Subscribed to Nanak Tech Solutions's Newsletter");
           }
           input.value = '';
         }

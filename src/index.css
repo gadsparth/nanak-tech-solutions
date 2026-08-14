@@ -365,6 +365,8 @@ a {
   padding: 0.8rem 1.6rem;
   border: 1px solid var(--color-stone);
   color: var(--color-white);
+  background-color: transparent;
+  cursor: pointer;
   transition: background-color var(--transition-medium), border-color var(--transition-medium), transform var(--transition-medium);
 }
 
