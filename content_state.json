@@ -144,6 +144,22 @@
             "description": "Scaling search acquisition for an outdoor consumer brand in Australia.",
             "pills": "Product-Level Bidding, Full-Funnel Tracking, Seasonal Campaigns",
             "link": "/e-commerce-google-ads-case-study.pdf"
+          },
+          {
+            "id": "health-wellness",
+            "category": "CASE STUDY // HEALTH & WELLNESS",
+            "title": "E-Comm Profitability Engine",
+            "description": "Transitioning a wellness brand from product-level ads to a highly efficient acquisition structure.",
+            "pills": "+128% Revenue, +104% Orders, +71% Conversion Rate",
+            "link": "/health-wellness-google-ads-case-study.pdf"
+          },
+          {
+            "id": "ps-digital",
+            "category": "CASE STUDY // MARKETING AGENCY",
+            "title": "Lead Gen Optimization",
+            "description": "Re-architecting Google Ads around commercial intent for a Perth-based agency.",
+            "pills": "~70% Lead Conversion, AUD 200/Day Spend, Intent-Specific Focus",
+            "link": "/ps-digital-google-ads-case-study.pdf"
           }
         ]
       }
