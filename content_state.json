@@ -160,6 +160,14 @@
             "description": "Re-architecting Google Ads around commercial intent for a Perth-based agency.",
             "pills": "~70% Lead Conversion, AUD 200/Day Spend, Intent-Specific Focus",
             "link": "/ps-digital-google-ads-case-study.pdf"
+          },
+          {
+            "id": "honey-brand",
+            "category": "CASE STUDY // PERFORMANCE MARKETING",
+            "title": "E-Comm Intent Optimization",
+            "description": "Refining search intent mapping to turn a traditional honey brand into an e-commerce acquisition channel.",
+            "pills": "6% Conversion Rate, Intent-First Optimization, Product-Specific Bidding",
+            "link": "/honey-brand-google-ads-case-study.pdf"
           }
         ]
       }
