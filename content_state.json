@@ -104,6 +104,7 @@
       "case-studies": {
         "label": "08 // Operations Proof",
         "title": "Case Study Previews",
+        "items": [
           {
             "id": "google-ads",
             "category": "CASE STUDY // GOOGLE ADS",

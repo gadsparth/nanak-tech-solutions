@@ -36,7 +36,7 @@ class App {
     
     // 2. Fetch CMS content state from database
     try {
-      const res = await fetch('/api/cms/load');
+      const res = await fetch(`/api/cms/load?t=${Date.now()}`);
       const state = await res.json();
       setCmsState(state);
       this.injectCustomScripts(state);
