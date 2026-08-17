@@ -104,31 +104,6 @@
       "case-studies": {
         "label": "08 // Operations Proof",
         "title": "Case Study Previews",
-        "items": [
-          {
-            "id": "ai-automation",
-            "category": "CASE STUDY // AI AUTOMATION",
-            "title": "Logistics Auto-Routing",
-            "description": "Automating route mapping for 80+ daily cargo transfers.",
-            "pills": "42 Hours Saved / Wk, 0% Manual Mistakes",
-            "link": "/services/ai-automation"
-          },
-          {
-            "id": "seo",
-            "category": "CASE STUDY // TECH SEO",
-            "title": "FinTech Traffic Growth",
-            "description": "Clearing indexing issues and setting schema maps.",
-            "pills": "+240% Click Growth, #1 Organic Terms",
-            "link": "/services/seo"
-          },
-          {
-            "id": "lead-generation",
-            "category": "CASE STUDY // LEAD GEN",
-            "title": "SaaS Lead Pipelines",
-            "description": "Deploying enriched cold email structures linked to LinkedIn.",
-            "pills": "4.8x Bidding ROAS, +150 Mapped Leads",
-            "link": "/services/lead-generation"
-          },
           {
             "id": "google-ads",
             "category": "CASE STUDY // GOOGLE ADS",
