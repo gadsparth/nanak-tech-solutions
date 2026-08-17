@@ -155,6 +155,14 @@ export const fallbackCmsState = {
             description: "Deploying enriched cold email structures linked to LinkedIn.",
             pills: "4.8x Bidding ROAS, +150 Mapped Leads",
             link: "/services/lead-generation"
+          },
+          {
+            id: "google-ads",
+            category: "CASE STUDY // GOOGLE ADS",
+            title: "High-Intent Google Ads Lead Gen",
+            description: "Restructuring paid search campaigns for a specialist healthcare clinic.",
+            pills: "+208% Enquiry Growth, -62% Cost Per Lead, +113% Conversion Rate",
+            link: "/google-ads-healthcare-case-study.pdf"
           }
         ]
       }
@@ -1077,8 +1085,10 @@ function renderAboutTechStack(data) {
 function renderAboutCaseStudies(data) {
   const cardsHtml = data.items.map(item => {
     const pillsHtml = item.pills.split(',').map(pill => `<span>${pill.trim()}</span>`).join('');
+    const isExternal = item.link.endsWith('.pdf') || item.link.startsWith('http') || item.target === '_blank';
+    const targetAttr = isExternal ? 'target="_blank" rel="noopener noreferrer"' : 'data-link';
     return `
-      <a href="${item.link}" class="luxury-card clickable-case-card" data-link>
+      <a href="${item.link}" class="luxury-card clickable-case-card" ${targetAttr}>
         <span class="card-num">${item.category}</span>
         <h3 class="card-title" style="margin-top: 1rem;">${item.title}</h3>
         <p style="color: var(--color-white); font-size: 1.1rem; margin-bottom: 1.5rem;">
